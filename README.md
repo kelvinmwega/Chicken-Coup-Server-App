@@ -1,4 +1,4 @@
-# Chicken-Coup-Server-App
+# Chicken Coup Server App (Distributed Systems Demo)
 
 ### Live data can be accessed on this [demo application](https://mis6060project.eu-gb.mybluemix.net/ui)
 
