@@ -1,0 +1,24 @@
+{
+    "mqttserver": {
+        "server": "mqtt://3.12.84.86:1883",
+        "subtopic": "vt/data/+",
+        "pubtopic": "vt/cmd"
+    },
+    "iotamam": {
+        "mode": "public",
+        "server": "https://nodes.devnet.iota.org:443",
+        "depth": 3,
+        "minWeightMagnitude": 9,
+        "tag": "CHICKENCOOUP",
+        "seed": "DAUJPUDUMXPZYJYTFO9HCWLNQMQYLGAKWL9VJRCYVLCMRSODO9ENUBHZVB9XZEWBCRTIQKBYNUUAMEEY",
+        "security": 2
+    },
+    "nodered": {
+        "url": "https://mis6060project.eu-gb.mybluemix.net/emddata"
+    },
+    "dataserver": {
+        "wlmhost": "http://3.17.219.89:8030/api/wlmdata",
+        "emdhost": "http://3.17.219.89:8030/api/emddata",
+        "trackerhost": "http://3.17.219.89:8030/api/tracker"
+    }
+}
