@@ -54,7 +54,7 @@ export class DataHandlerService {
     }
 
     private async postData(url: string, data: any): Promise<void> {
-
+        logger.info(`Data to post : ${JSON.stringify(data)}`);
         await axios.post(url, data).then((response) => {
             logger.info(`Response : ${response.status}`);
         }).catch((error) => {
