@@ -39,8 +39,6 @@ export class MamService {
         const api = composeAPI({ provider: this._mamconfig.server });
         await mamAttach(api, message, this._mamconfig.depth, this._mamconfig.minWeightMagnitude, this._mamconfig.tag);
 
-        console.log(message);
-
         return message.root;
     }
 
