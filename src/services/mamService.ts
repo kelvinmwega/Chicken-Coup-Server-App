@@ -29,8 +29,10 @@ export class MamService {
         
         // return Mam.getRoot(this._mamState);
 
+        const seed = await this.generateSeed(81);
+
         const trytes = asciiToTrytes(JSON.stringify(asciiMessage));
-        const channelState = createChannel(this._mamconfig.seed, this._mamconfig.security, this._mamconfig.mode);
+        const channelState = createChannel(seed, this._mamconfig.security, this._mamconfig.mode);
 
         const message = createMessage(channelState, trytes);
 
